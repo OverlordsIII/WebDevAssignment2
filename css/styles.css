@@ -1,6 +1,67 @@
 body {
   font-size: 16px;
-  color: #fff;
-  background-color: #61122f;
   font-family: 'Oxygen', sans-serif;
+  color: black;
+  box-sizing: border-box;
+}
+
+
+
+#header-nav {
+  background-color: #74c423;
+  border: 5px solid black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+h2 {
+  margin: 30px;
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+.Chicken {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+  background-color: #74c423;
+}
+
+.Beef {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+  background-color: #74c423;
+}
+
+.Sushi {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 10px;
+  background-color: #74c423;
+}
+
+.MenuItems {
+  color:black;
+}
+
+nav {
+    background-color: gray;
+    border: 3px solid black;
+}
+
+br {
+  visibility: hidden;
 }
